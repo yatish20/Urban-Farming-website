@@ -1,0 +1,113 @@
+.education-container {
+    padding: 100px;
+}
+
+.heading {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.card-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
+
+}
+
+.card {
+    border: 1px solid #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 80%;
+    margin: 20px;
+
+}
+
+.card-header {
+    margin-bottom: 1rem;
+    background-color: #000000;
+}
+
+#learnimg {
+    width: fit-content;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-description {
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+.card-content {
+    margin-bottom: 1rem;
+}
+
+.icon {
+    margin-bottom: 0.5rem;
+}
+
+.icon-size {
+    width: 2rem;
+    height: 2rem;
+}
+
+.card-footer {
+    text-align: right;
+}
+
+.btn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #2563eb;
+}
+
+.card5 .card-header {
+    background-color: #2563eb;
+}
+
+.card6 .card-header {
+    background-color: #385187;
+}
+
+.card4 .card-header {
+    background-color: #3b82f6;
+}
+
+.card3 .card-header {
+    background-color: #002e92;
+}
+
+.card2 .card-header {
+    background-color: #5a6c92;
+}
+
+.card1 .card-header {
+    background-color: #5672ad;
+}
+
+.card6 {
+    grid-column: 2/span 1;
+    grid-row: 2;
+    gap: 10px;
+}
+
+.card5 {
+    grid-column: 1/span 1;
+    grid-row: 2;
+
+}

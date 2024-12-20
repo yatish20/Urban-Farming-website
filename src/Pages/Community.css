@@ -1,0 +1,68 @@
+.community-container {
+    padding: 1.5rem;
+}
+
+.community-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.community-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-header {
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-description {
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+.card-content {
+    margin-bottom: 1rem;
+}
+
+.icon {
+    margin-bottom: 0.5rem;
+}
+
+.icon-size {
+    width: 2rem;
+    height: 2rem;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.btn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #2563eb;
+}
